@@ -88,8 +88,8 @@ scene.add(ground);
 // Cargar modelos como carrusel
 // Cargar modelos como carrusel
 const modelPaths = [
-  'https://drive.google.com/uc?export=download&id=1rJ7EqkLZHd7Zez-2KfPTYuTbb4hADItL',
-  'https://drive.google.com/uc?export=download&id=1g_LcDKXFXBpIqKzrPRGNWwBk1QfE3jlC'
+  'https://modelito3d.web.app/nike_tc_7900_sail.glb',
+  'https://modelito3d.web.app/adi_sneaker.glb'
 ];
 
 
