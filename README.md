@@ -28,21 +28,21 @@ Ideal para experiencias de marca, productos interactivos o probadores virtuales.
 ---
 
 ---
+▶️ Cómo ejecutar localmente
+🔹 Requisitos:
+Tener Node.js instalado
 
-## ▶️ Cómo ejecutar localmente
+Un navegador moderno
 
-### 🔹 Requisitos:
-- Node.js instalado
-- Navegador moderno
-- Flutter no requerido (esto es web pura)
+🔸 Instrucciones:
+Cloná el repositorio:
 
-### 🔸 Instrucciones:
-
-1. Cloná el repositorio:
-```bash
+bash
+Copy
+Edit
 git clone https://github.com/JuliMart/modelo3D.git
 cd modelo3D
-Instalá dependencias:
+Instalá las dependencias:
 
 bash
 Copy
@@ -54,38 +54,43 @@ bash
 Copy
 Edit
 npm run dev
-Accedé desde el navegador:
-📍 http://localhost:5173/
+Accedé al proyecto desde tu navegador en:
 
-🌐 Despliegue en Firebase Hosting
-Instalá Firebase CLI:
+arduino
+Copy
+Edit
+http://localhost:5173/
+🌐 Cómo desplegar en Firebase Hosting
+Instalá la CLI de Firebase (si no la tenés):
 
 bash
 Copy
 Edit
 npm install -g firebase-tools
-Iniciá configuración:
+Iniciá el proyecto de Firebase en esta carpeta:
 
 bash
 Copy
 Edit
 firebase init
-Deploy:
+Cuando te pregunte qué configurar, elegí: Hosting
+Asegurate de seleccionar dist/ o build/ como directorio (según cómo esté configurado Vite)
+
+Hacé el deploy:
 
 bash
 Copy
 Edit
 firebase deploy
+Al terminar, Firebase te dará una URL pública como https://modelo3d-demo.web.app
+
 🛍️ Contexto de uso
-Pensado para:
+Este proyecto está pensado para:
 
-Retail interactivo (calzado, accesorios, tecnología)
+🛒 Retail interactivo (zapatillas, ropa, accesorios)
 
-Ferias tecnológicas
+💼 Ferias tecnológicas o exposiciones
 
-Showrooms físicos o digitales
+🖥️ Showrooms físicos o digitales
 
-Escaparates con pantallas táctiles
-
-
-
+🪟 Escaparates o vitrinas con pantallas táctiles
